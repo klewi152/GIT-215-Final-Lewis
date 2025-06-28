@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ken Lewis III">
+    <meta name="description" content="Contact Summit Resort.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summit Resort | Contact</title>
+    <link rel="icon" href="summit-favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html">Summit Resort</a></h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#">Accommodations</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+        <div class="hero-image"></div>
+    </header>
+
+  <main>
+    <section class="contact-intro">
+        <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>
+            <strong>Required fields marked with a *</strong>
+        </p>
+    </section>
+
+    <section class="contact-content">
+        <div class="contact-image">
+            <img src="swiss-peak.jpg" alt="View of the Swiss Alps" width="100%" height="auto">
+        </div>
+
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <label for="fullname">Full Name *</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <fieldset>
+            <legend>Preferred Contact Method *</legend>
+            <label>
+                <input type="radio" name="contactmethod" value="email" required> Email
+            </label>
+            <label>
+                <input type="radio" name="contactmethod" value="phone" required> Phone
+            </label>
+        </fieldset>
+
+        <label for="comments">Comments *</label>
+        <textarea id="comments" name="comments" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 - Summit Resort</p>
+    <p>This site is for educational purposes only</p>
+  </footer>
+
+</body>
+</html>
